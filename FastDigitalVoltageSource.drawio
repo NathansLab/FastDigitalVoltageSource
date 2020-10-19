@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2020-10-19T08:18:00.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="l2gRN64yhkHhxF94cTko" version="13.8.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-10-19T08:40:31.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="sVebGUoPbdWdDaAKbQrl" version="13.8.0" type="github" pages="2">
   <diagram id="MgRGw1GTELKzVbNFuGq4" name="Übersicht">
-    <mxGraphModel dx="2844" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2370" dy="1598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="X8haMysQ_I9pbG8Evlh8-0" />
         <mxCell id="X8haMysQ_I9pbG8Evlh8-1" parent="X8haMysQ_I9pbG8Evlh8-0" />
         <mxCell id="kBDEj_F6I8cnV1OnYzeL-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://reference.digilentinc.com/_media/reference/instrumentation/analog-discovery-2/analog-discovery-2-5.png;rotation=90;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="650" y="445.5" width="230" height="230" as="geometry" />
+          <mxGeometry x="630" y="525.5" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="i17DbtNYUxxOsYptbzUx-1" value="PC" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="30" y="350.5" width="120" height="420" as="geometry" />
+          <mxGeometry x="10" y="430.5" width="120" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="i17DbtNYUxxOsYptbzUx-2" value="Simulink&lt;br&gt;(optional)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="130" y="375.5" width="120" height="370" as="geometry" />
+        <mxCell id="i17DbtNYUxxOsYptbzUx-2" value="Simulink&lt;br&gt;oder&amp;nbsp;&lt;br&gt;Excel&lt;br&gt;(optional)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
+          <mxGeometry x="110" y="455.5" width="120" height="370" as="geometry" />
         </mxCell>
         <mxCell id="kBDEj_F6I8cnV1OnYzeL-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://reference.digilentinc.com/_media/reference/instrumentation/analog-discovery-2/analog-discovery-2-3.png;rotation=-90;fillOpacity=40;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="780" y="290.5" width="540" height="540" as="geometry" />
+          <mxGeometry x="760" y="370.5" width="540" height="540" as="geometry" />
         </mxCell>
         <mxCell id="i17DbtNYUxxOsYptbzUx-0" value="&lt;b&gt;AnalogDiscovery2&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;font-size: 11px&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;Two-channel oscilloscope (1MΩ, ±25V, differential, 14-bit, 100MS/s, 30MHz+ bandwidth - with the Analog Discovery BNC Adapter Board)&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;Two-channel arbitrary function generator (±5V, 14-bit, 100MS/s, 12MHz+ bandwidth - with the Analog Discovery BNC Adapter Board)&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Stereo audio amplifier to drive external headphones or speakers with replicated AWG signals&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;16-channel digital logic analyzer (3.3V CMOS, 100MS/s)1) 2)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;16-channel pattern generator (3.3V CMOS, 100MS/s)3) 4)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;16-channel virtual digital I/O including buttons, switches, and LEDs – perfect for logic training applications 5) 6)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Two input/output digital trigger signals for linking multiple instruments (3.3V CMOS)7)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Two programmable power supplies (0…+5V , 0…-5V). The maximum available output current and power depend on the Analog Discovery 2 powering choice:&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;500mW total when powered through USB&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;2.1W max for each supply when powered by an auxiliary supply&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;700mA maximum current for each supply&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;b&gt;Two-channel voltmeter (AC, DC, ±25V)&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Network analyzer – Bode, Nyquist, Nichols transfer diagrams of a circuit. Range: 1Hz to 10MHz&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Spectrum Analyzer – power spectrum and spectral measurements (noise floor, SFDR, SNR, THD, etc.)&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;Digital Bus Analyzers (SPI, I²C, UART, Parallel, CAN)&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="760" y="273" width="530" height="575" as="geometry" />
+          <mxGeometry x="740" y="353" width="530" height="575" as="geometry" />
         </mxCell>
         <mxCell id="i17DbtNYUxxOsYptbzUx-3" value="Waveforms&lt;br&gt;(AnalogDiscovery2 Software)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="240" y="395.5" width="390" height="330" as="geometry" />
+          <mxGeometry x="220" y="475.5" width="390" height="330" as="geometry" />
         </mxCell>
         <mxCell id="i17DbtNYUxxOsYptbzUx-5" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;width=50;endSize=6.941666666666667;" edge="1" parent="X8haMysQ_I9pbG8Evlh8-1" source="i17DbtNYUxxOsYptbzUx-3" target="i17DbtNYUxxOsYptbzUx-0">
-          <mxGeometry x="300" y="355.5" width="50" height="50" as="geometry">
-            <mxPoint x="660" y="605.5" as="sourcePoint" />
-            <mxPoint x="710" y="555.5" as="targetPoint" />
+          <mxGeometry x="280" y="435.5" width="50" height="50" as="geometry">
+            <mxPoint x="640" y="685.5" as="sourcePoint" />
+            <mxPoint x="690" y="635.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="i17DbtNYUxxOsYptbzUx-6" value="USB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i17DbtNYUxxOsYptbzUx-5">
@@ -34,41 +34,59 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i17DbtNYUxxOsYptbzUx-8" value="Waveform&lt;br&gt;Generator&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="260" y="525.5" width="180" height="160" as="geometry" />
+          <mxGeometry x="240" y="605.5" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="i17DbtNYUxxOsYptbzUx-9" value="Skripting&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="440" y="525.5" width="180" height="160" as="geometry" />
+          <mxGeometry x="420" y="605.5" width="180" height="160" as="geometry" />
         </mxCell>
         <mxCell id="kBDEj_F6I8cnV1OnYzeL-0" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://reference.digilentinc.com/_media/reference/instrumentation/analog-discovery-2/analog-discovery-2-6.png;rotation=-90;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="1200" y="480.5" width="160" height="160" as="geometry" />
+          <mxGeometry x="1180" y="560.5" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="kBDEj_F6I8cnV1OnYzeL-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://reference.digilentinc.com/_media/reference/instrumentation/analog-discovery-2/analog-discovery-2-7.png;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="265.37" y="575.5" width="169.26" height="90.49" as="geometry" />
+          <mxGeometry x="245.37" y="655.5" width="169.26" height="90.49" as="geometry" />
         </mxCell>
         <mxCell id="kBDEj_F6I8cnV1OnYzeL-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://reference.digilentinc.com/_media/reference/instrumentation/analog-discovery-2/analog-discovery-2-14.png;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="440.74" y="573.03" width="178.53" height="95.44" as="geometry" />
+          <mxGeometry x="420.74" y="653.03" width="178.53" height="95.44" as="geometry" />
         </mxCell>
         <mxCell id="kBDEj_F6I8cnV1OnYzeL-9" value="Simulink Integration&amp;nbsp;&lt;br&gt;in Waveforms" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="170" y="430" width="165.37" height="80" as="geometry" />
+          <mxGeometry x="150" y="510" width="165.37" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kBDEj_F6I8cnV1OnYzeL-10" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://reference.digilentinc.com/_media/analog_discovery_2/analogdiscovery2-pinout-600.png?w=450&amp;tok=2c9e2b;rotation=-90;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="1310" y="445.5" width="240" height="252.27" as="geometry" />
+          <mxGeometry x="1288.35" y="560.5" width="175.53" height="184.5" as="geometry" />
         </mxCell>
         <mxCell id="kBDEj_F6I8cnV1OnYzeL-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://reference.digilentinc.com/_media/analog_discovery_2/figure_2.png;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="920" y="710" width="189.89" height="130" as="geometry" />
+          <mxGeometry x="900" y="790" width="189.89" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kBDEj_F6I8cnV1OnYzeL-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=none;startFill=0;curved=1;" edge="1" parent="X8haMysQ_I9pbG8Evlh8-1" source="kBDEj_F6I8cnV1OnYzeL-12" target="kBDEj_F6I8cnV1OnYzeL-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kBDEj_F6I8cnV1OnYzeL-12" value="5V Netzteil" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
-          <mxGeometry x="570" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="550" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kBDEj_F6I8cnV1OnYzeL-14" value="" style="curved=1;endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="X8haMysQ_I9pbG8Evlh8-1" source="kBDEj_F6I8cnV1OnYzeL-12" target="kBDEj_F6I8cnV1OnYzeL-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="660" y="420" as="sourcePoint" />
-            <mxPoint x="710" y="370" as="targetPoint" />
+            <mxPoint x="640" y="500" as="sourcePoint" />
+            <mxPoint x="690" y="450" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="690" y="340" />
-              <mxPoint x="660" y="400" />
+              <mxPoint x="670" y="420" />
+              <mxPoint x="640" y="480" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="kBDEj_F6I8cnV1OnYzeL-16" value="Isolation?&lt;br&gt;CN0160&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
+          <mxGeometry x="550" y="110" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="kBDEj_F6I8cnV1OnYzeL-19" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#ffffff;image=https://www.analog.com/-/media/analog/en/reference-circuits/images/cn0160-hw-1024.jpg?h=500&amp;hash=D5321BB6B1B43F0249E2B0E5FA4EA3C2;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
+          <mxGeometry x="570" y="150" width="120" height="109.62" as="geometry" />
+        </mxCell>
+        <mxCell id="kBDEj_F6I8cnV1OnYzeL-21" value="&lt;h2 class=&quot;sectionedit38&quot; id=&quot;analog_outputs_arbitrary_waveform_generator&quot; style=&quot;box-sizing: border-box ; line-height: 1.1 ; color: rgb(51 , 51 , 51) ; margin-top: 20px ; margin-bottom: 10px ; position: relative ; width: 760.5px ; font-size: 13px&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Analog Outputs (Arbitrary Waveform Generator)&lt;/font&gt;&lt;/h2&gt;&lt;div class=&quot;level2&quot; style=&quot;box-sizing: border-box ; color: rgb(51 , 51 , 51) ; font-size: 13px&quot;&gt;&lt;ul style=&quot;box-sizing: border-box ; margin-top: 0px ; margin-bottom: 10px&quot;&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Channels: 2&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Channel type: single ended&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Resolution: 14-bit&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Absolute Resolution(amplitude ≤1V): 166μV&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Absolute Resolution(amplitude &amp;gt;1V): 665μV&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Accuracy - typical (|Vout| ≤ 1V): ±10mV ± 0.5%&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Accuracy - typical (|Vout| &amp;gt; 1V): ±25mV ± 0.5%&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Sample rate (real time): 100MS/s&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;AC amplitude (max): ±5 V&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;DC Offset (max): ±5 V&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Analog bandwidth with Discovery BNC adapter: 12&amp;nbsp;&lt;abbr title=&quot;&quot; style=&quot;box-sizing: border-box ; border-bottom: 1px dotted rgb(119 , 119 , 119) ; cursor: help&quot;&gt;MHz&lt;/abbr&gt;&amp;nbsp;@ 3dB, 4&amp;nbsp;&lt;abbr title=&quot;&quot; style=&quot;box-sizing: border-box ; border-bottom: 1px dotted rgb(119 , 119 , 119) ; cursor: help&quot;&gt;MHz&lt;/abbr&gt;&amp;nbsp;@ 0.5dB, 1&amp;nbsp;&lt;abbr title=&quot;&quot; style=&quot;box-sizing: border-box ; border-bottom: 1px dotted rgb(119 , 119 , 119) ; cursor: help&quot;&gt;MHz&lt;/abbr&gt;&amp;nbsp;@ 0.1dB&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Analog bandwidth with Wire Kit: 9&amp;nbsp;&lt;abbr title=&quot;&quot; style=&quot;box-sizing: border-box ; border-bottom: 1px dotted rgb(119 , 119 , 119) ; cursor: help&quot;&gt;MHz&lt;/abbr&gt;&amp;nbsp;@ 3dB, 2.9&amp;nbsp;&lt;abbr title=&quot;&quot; style=&quot;box-sizing: border-box ; border-bottom: 1px dotted rgb(119 , 119 , 119) ; cursor: help&quot;&gt;MHz&lt;/abbr&gt;&amp;nbsp;@ 0.5dB, 0.8&amp;nbsp;&lt;abbr title=&quot;&quot; style=&quot;box-sizing: border-box ; border-bottom: 1px dotted rgb(119 , 119 , 119) ; cursor: help&quot;&gt;MHz&lt;/abbr&gt;&amp;nbsp;@ 0.1dB&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Slew rate (10V step): 400V/μs&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Buffer size/channel: up to 16k samples&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Standard waveforms: sine, triangle, sawtooth, etc.&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Advanced waveforms: Sweeps, AM, FM.&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class=&quot;level1&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;div class=&quot;li&quot; style=&quot;box-sizing: border-box&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;User-defined arbitrary waveforms: defined within WaveForms software user interface or using standard tools (e.g.&lt;b&gt; Excel)&lt;/b&gt;.&lt;/font&gt;&lt;/div&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;align=left;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
+          <mxGeometry x="740" y="20" width="770" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="kBDEj_F6I8cnV1OnYzeL-27" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#d6b656;strokeWidth=4;fillColor=#fff2cc;fillOpacity=40;rotation=45;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
+          <mxGeometry x="1266.25" y="668.45" width="90" height="9.39" as="geometry" />
+        </mxCell>
+        <mxCell id="kBDEj_F6I8cnV1OnYzeL-28" value="" style="ellipse;whiteSpace=wrap;html=1;strokeColor=#d6b656;strokeWidth=4;fillColor=#fff2cc;fillOpacity=40;rotation=45;" vertex="1" parent="X8haMysQ_I9pbG8Evlh8-1">
+          <mxGeometry x="1266.25" y="711.11" width="90" height="9.39" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
